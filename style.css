@@ -1,0 +1,56 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tabs{
+    display: inline;
+    float: right;
+
+    font-family: 'Habibi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+
+    color: #CBE0FF;
+
+    display: block;
+    padding: 35px 95px;
+}
+
+body{
+    background-image: url('background.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.head1{
+    font-family: 'Habibi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100px;
+
+    color: #CBE0FF;
+}
+
+.descrip{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #CBE0FF;
+    padding-top: 5%;
+}
+
+#block{
+    padding: 13%;
+}
+#navbar{
+
+}
