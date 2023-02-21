@@ -43,9 +43,11 @@ body{
     font-weight: 300;
     font-size: 20px;
     line-height: 27px;
+    max-width: 750px;
+
 
     color: #CBE0FF;
-    padding-top: 5%;
+    padding-top: 3%;
 }
 
 #block{
