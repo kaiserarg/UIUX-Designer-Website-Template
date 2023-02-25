@@ -1,8 +1,13 @@
+#navbar{
+    position: fixed;
+    top: 0; 
+    width: 100%;
+}
+
+
 ul{
-    list-style-type: none;
-    margin: 0;
-    padding-right: 8%;
-    padding-top: 5%;
+    padding-right: 6%;
+    padding-top: 4%;
 }
 
 .tabs{
@@ -12,7 +17,6 @@ ul{
     font-weight: 400;
     font-size: 150%;
     line-height: 38px;
-
     color: #CBE0FF;
     padding-left: 4%;
 
@@ -35,13 +39,14 @@ ul{
   }
 
 body{
-    background-image: url('background.svg');
-    background-repeat: no-repeat;
+    background-color: #060A1E;
     background-size: 100%;
+    background-image: url('/assets/gradients.svg');
+    background-repeat: no-repeat;
 
 }
 
-.head1{
+#intro{
     font-family: 'Habibi';
     font-style: normal;
     font-weight: 400;
