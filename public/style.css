@@ -2,6 +2,7 @@
     position: fixed;
     top: 0; 
     width: 100%;
+    z-index: 100;
 }
 
 
@@ -108,9 +109,9 @@ body{
 .vl{
   border-left: 1px solid #CBE0FF;
   height: 150px;
-  position: absolute;
   left: 525px;
   margin-top: 18px;
+  float: right;
 }
 
 .num{
@@ -119,7 +120,12 @@ body{
     padding: 58px;
 }
 
-
+.gifs{
+    position: absolute;
+    width: 15%;
+    padding-left: 60%;
+    padding-top: 6%;
+}
 
 #mainpagebreak{
     padding-top: 85px;
