@@ -69,10 +69,61 @@ body{
     padding-top: 3%;
 }
 
-#block{
+.subheading{
+    font-family: 'Habibi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 350%;
+    max-width: 475px;
+
+    color: #CBE0FF;
+}
+
+.subdescription{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    max-width: 475px;
+
+    color: #CBE0FF;
+}
+
+.subdoc{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    max-width: 475px;
+    float: right;
+    padding-top: 25px;
+
+    color: #CBE0FF;
+}
+
+.block{
     padding: 13%;
 }
 
+.vl{
+  border-left: 1px solid #CBE0FF;
+  height: 150px;
+  position: absolute;
+  left: 525px;
+  margin-top: 18px;
+}
+
+.num{
+    font-family: 'Nunito';
+    font-size: 30px;
+    padding: 58px;
+}
+
+
+
+#mainpagebreak{
+    padding-top: 85px;
+}
 
 hr{
     border-color: #CBE0FF;
