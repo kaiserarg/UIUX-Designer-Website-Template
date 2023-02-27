@@ -42,7 +42,7 @@ ul{
 body{
     background-color: #060A1E;
     background-size: 100%;
-    background-image: url('/assets/gradients.svg');
+    background-image: url('assets/gradients.svg');
     background-repeat: no-repeat;
 
 }
