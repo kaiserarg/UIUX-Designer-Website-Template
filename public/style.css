@@ -5,6 +5,9 @@
     z-index: 100;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 ul{
     padding-right: 6%;
@@ -18,7 +21,7 @@ ul{
     font-weight: 400;
     font-size: 150%;
     line-height: 38px;
-    color: #CBE0FF;
+    color: inherit;
     padding-left: 4%;
 
     display: inline-block;
@@ -44,8 +47,22 @@ body{
     background-size: 100%;
     background-image: url('assets/gradients.svg');
     background-repeat: no-repeat;
-
+    -webkit-animation: myfirst 3s ; /* Chrome, Safari, Opera */
+    animation: myfirst 3s ;
+    color: #CBE0FF
 }
+
+    /* Chrome, Safari, Opera */
+    @-webkit-keyframes myfirst {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
+
+    /* Standard syntax */
+    @keyframes myfirst {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
 
 #intro{
     font-family: 'Habibi';
@@ -54,7 +71,7 @@ body{
     font-size: 500%;
     line-height: 100px;
 
-    color: #CBE0FF;
+    color: inherit;
 }
 
 .descrip{
@@ -66,7 +83,7 @@ body{
     max-width: 750px;
 
 
-    color: #CBE0FF;
+    color: inherit;
     padding-top: 3%;
 }
 
@@ -77,7 +94,7 @@ body{
     font-size: 350%;
     max-width: 475px;
 
-    color: #CBE0FF;
+    color: inherit;
 }
 
 .subdescription{
@@ -87,7 +104,7 @@ body{
     font-size: 20px;
     max-width: 475px;
 
-    color: #CBE0FF;
+    color: inherit;
 }
 
 .subdoc{
@@ -99,11 +116,12 @@ body{
     float: right;
     padding-top: 25px;
 
-    color: #CBE0FF;
+    color: inherit;
 }
 
 .block{
     padding: 13%;
+    position: sticky;
 }
 
 .vl{
@@ -121,16 +139,28 @@ body{
 }
 
 .gifs{
-    position: absolute;
     width: 15%;
-    padding-left: 60%;
-    padding-top: 6%;
+    float: right;
+    
 }
 
 #mainpagebreak{
     padding-top: 85px;
 }
 
+a { 
+    color: inherit; 
+    text-decoration: none;
+} 
+
+
 hr{
     border-color: #CBE0FF;
 }
+
+.divider{
+    text-align: center;
+    max-width: 75%;
+    margin: auto;
+}
+
