@@ -87,6 +87,19 @@ body{
     padding-top: 3%;
 }
 
+.aboutpagedes{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    max-width: 600px;
+
+
+    color: inherit;
+    padding-top: 3%;
+}
+
 .subheading{
     font-family: 'Habibi';
     font-style: normal;
