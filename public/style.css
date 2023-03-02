@@ -52,17 +52,15 @@ body{
     color: #CBE0FF
 }
 
-    /* Chrome, Safari, Opera */
-    @-webkit-keyframes myfirst {
-        from {opacity: 0;}
-        to {opacity: 1;}
-    }
+@-webkit-keyframes myfirst {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
 
-    /* Standard syntax */
-    @keyframes myfirst {
-        from {opacity: 0;}
-        to {opacity: 1;}
-    }
+@keyframes myfirst {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
 
 #intro{
     font-family: 'Habibi';
@@ -94,8 +92,6 @@ body{
     font-size: 20px;
     line-height: 27px;
     max-width: 600px;
-
-
     color: inherit;
     padding-top: 3%;
 }
@@ -134,7 +130,7 @@ body{
 
 .block{
     padding: 13%;
-    position: sticky;
+    opacity: 1;
 }
 
 .vl{
@@ -152,9 +148,12 @@ body{
 }
 
 .gifs{
-    width: 15%;
+    width: 17%;
+    position: sticky;
+    top: 18%;
+    padding-top: 3%;
     float: right;
-    
+    padding-right: 18%;
 }
 
 #mainpagebreak{
