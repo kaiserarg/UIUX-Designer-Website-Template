@@ -180,3 +180,13 @@ hr{
     margin: auto;
 }
 
+.indexer{
+    display: flex;
+    align-items: center;
+}
+
+.rowImage{
+    padding-left: 5%;
+    opacity: inherit;
+}
+

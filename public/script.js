@@ -3,7 +3,7 @@ $(window).on("load",function() {
       var windowBottom = $(this).scrollTop() + $(this).innerHeight();
       $(".block").each(function() {
         var objectBottom = $(this).offset().top + $(this).outerHeight();
-        if (objectBottom < windowBottom) {
+        if (objectBottom < windowBottom+50) {
           if ($(this).css("opacity")==0) {$(this).fadeTo(200,1);}
           
         }else{
